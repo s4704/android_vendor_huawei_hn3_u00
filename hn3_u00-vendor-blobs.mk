@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PATH_FILES := vendor/huawei/hwp6_u06/proprietary
+PATH_FILES := vendor/huawei/hn3_u00/proprietary
 
 PRODUCT_COPY_FILES += \
     $(PATH_FILES)/app/Bluetooth.apk:system/app/Bluetooth.apk \
@@ -83,15 +83,15 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(PATH_FILES)/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
-    $(PATH_FILES)/lib/hw/audio.primary.k3v2oem1.so:system/lib/hw/audio.primary.hwp6_u06.so \
-    $(PATH_FILES)/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.hwp6_u06.so \
+    $(PATH_FILES)/lib/hw/audio.primary.k3v2oem1.so:system/lib/hw/audio.primary.hn3_u00.so \
+    $(PATH_FILES)/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.hn3_u00.so \
     $(PATH_FILES)/lib/hw/bluetooth.default.so:system/lib/hw/bluetooth.default.so \
     $(PATH_FILES)/lib/hw/camera.k3v2oem1.so:system/lib/hw/camera.k3v2oem1.so \
     $(PATH_FILES)/lib/hw/copybit.k3v2oem1.so:system/lib/hw/copybit.k3v2oem1.so \
     $(PATH_FILES)/lib/hw/gps.k3v2oem1.so:system/lib/hw/gps.k3v2oem1.so \
     $(PATH_FILES)/lib/hw/gralloc.k3v2oem1.so:system/lib/hw/gralloc.k3v2oem1.so \
     $(PATH_FILES)/lib/hw/hwcomposer.k3v2oem1.so:system/lib/hw/hwcomposer.k3v2oem1.so \
-    $(PATH_FILES)/lib/hw/lights.default.so:system/lib/hw/lights.hwp6_u06.so \
+    $(PATH_FILES)/lib/hw/lights.default.so:system/lib/hw/lights.hn3_u00.so \
     $(PATH_FILES)/lib/hw/sensors.k3v2oem1.so:system/lib/hw/sensors.k3v2oem1.so
 
 PRODUCT_COPY_FILES += \
