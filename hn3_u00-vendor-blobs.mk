@@ -63,7 +63,6 @@ PRODUCT_COPY_FILES += \
     $(PATH_FILES)/bin/ser2soc:system/bin/ser2soc \
     $(PATH_FILES)/bin/sprd_download:system/bin/sprd_download \
     $(PATH_FILES)/bin/supl20clientd:system/bin/supl20clientd \
-    $(PATH_FILES)/bin/surfaceflinger:system/bin/surfaceflinger \
     $(PATH_FILES)/bin/test_server:system/bin/test_server
 
 PRODUCT_COPY_FILES += \
@@ -218,8 +217,6 @@ PRODUCT_COPY_FILES += \
     $(PATH_FILES)/lib/libsupl20oasn1supl1.so:system/lib/libsupl20oasn1supl1.so \
     $(PATH_FILES)/lib/libsupl20oasn1supl2.so:system/lib/libsupl20oasn1supl2.so \
     $(PATH_FILES)/lib/libsupl20oasn1tia.so:system/lib/libsupl20oasn1tia.so \
-    $(PATH_FILES)/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
-    $(PATH_FILES)/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
     $(PATH_FILES)/lib/libtfa9887.so:system/lib/libtfa9887.so \
     $(PATH_FILES)/lib/libtrack.so:system/lib/libtrack.so \
     $(PATH_FILES)/lib/libui.so:system/lib/libui.so \
