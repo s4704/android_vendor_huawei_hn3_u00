@@ -123,7 +123,6 @@ PRODUCT_COPY_FILES += \
     $(PATH_FILES)/lib/libGLSLC.so:system/lib/libGLSLC.so \
     $(PATH_FILES)/lib/libgnssutils.so:system/lib/libgnssutils.so \
     $(PATH_FILES)/lib/libgnuexif.so:system/lib/libgnuexif.so \
-    $(PATH_FILES)/lib/libgui.so:system/lib/libgui.so \
     $(PATH_FILES)/lib/libhdr.so:system/lib/libhdr.so \
     $(PATH_FILES)/lib/libhelixplayer.so:system/lib/libhelixplayer.so \
     $(PATH_FILES)/lib/libhuawei-audio-ril.so:system/lib/libhuawei-audio-ril.so \
@@ -219,7 +218,6 @@ PRODUCT_COPY_FILES += \
     $(PATH_FILES)/lib/libsupl20oasn1tia.so:system/lib/libsupl20oasn1tia.so \
     $(PATH_FILES)/lib/libtfa9887.so:system/lib/libtfa9887.so \
     $(PATH_FILES)/lib/libtrack.so:system/lib/libtrack.so \
-    $(PATH_FILES)/lib/libui.so:system/lib/libui.so \
     $(PATH_FILES)/lib/libvpp.so:system/lib/libvpp.so \
     $(PATH_FILES)/lib/libxgold-ril.so:system/lib/libxgold-ril.so
 
