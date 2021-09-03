@@ -219,7 +219,8 @@ PRODUCT_COPY_FILES += \
     $(PATH_FILES)/lib/libtfa9887.so:system/lib/libtfa9887.so \
     $(PATH_FILES)/lib/libtrack.so:system/lib/libtrack.so \
     $(PATH_FILES)/lib/libvpp.so:system/lib/libvpp.so \
-    $(PATH_FILES)/lib/libxgold-ril.so:system/lib/libxgold-ril.so
+    $(PATH_FILES)/lib/libxgold-ril.so:system/lib/libxgold-ril.so \
+    $(PATH_FILES)/lib/libstlport.so:system/lib/libstlport.so
 
 PRODUCT_COPY_FILES += \
     $(PATH_FILES)/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf
