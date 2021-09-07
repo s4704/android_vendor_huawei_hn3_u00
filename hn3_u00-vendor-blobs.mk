@@ -76,20 +76,12 @@ PRODUCT_COPY_FILES += \
     $(PATH_FILES)/lib/drm/libdrmhwomavoneplugin.so:system/lib/drm/libdrmhwomavoneplugin.so
 
 PRODUCT_COPY_FILES += \
-    $(PATH_FILES)/lib/egl/libEGL_VIVANTE.so:system/lib/egl/libEGL_VIVANTE.so \
-    $(PATH_FILES)/lib/egl/libGLESv1_CM_VIVANTE.so:system/lib/egl/libGLESv1_CM_VIVANTE.so \
-    $(PATH_FILES)/lib/egl/libGLESv2_VIVANTE.so:system/lib/egl/libGLESv2_VIVANTE.so
-
-PRODUCT_COPY_FILES += \
     $(PATH_FILES)/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
     $(PATH_FILES)/lib/hw/audio.primary.k3v2oem1.so:system/lib/hw/audio.primary.hn3_u00.so \
     $(PATH_FILES)/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.hn3_u00.so \
     $(PATH_FILES)/lib/hw/bluetooth.default.so:system/lib/hw/bluetooth.default.so \
     $(PATH_FILES)/lib/hw/camera.k3v2oem1.so:system/lib/hw/camera.k3v2oem1.so \
-    $(PATH_FILES)/lib/hw/copybit.k3v2oem1.so:system/lib/hw/copybit.k3v2oem1.so \
     $(PATH_FILES)/lib/hw/gps.k3v2oem1.so:system/lib/hw/gps.k3v2oem1.so \
-    $(PATH_FILES)/lib/hw/gralloc.k3v2oem1.so:system/lib/hw/gralloc.k3v2oem1.so \
-    $(PATH_FILES)/lib/hw/hwcomposer.k3v2oem1.so:system/lib/hw/hwcomposer.k3v2oem1.so \
     $(PATH_FILES)/lib/hw/lights.default.so:system/lib/hw/lights.hn3_u00.so \
     $(PATH_FILES)/lib/hw/sensors.k3v2oem1.so:system/lib/hw/sensors.k3v2oem1.so
 
@@ -119,8 +111,6 @@ PRODUCT_COPY_FILES += \
     $(PATH_FILES)/lib/libdolbymobileaudioeffect_jni.so:system/lib/libdolbymobileaudioeffect_jni.so \
     $(PATH_FILES)/lib/libfilterframework_jni.so:system/lib/libfilterframework_jni.so \
     $(PATH_FILES)/lib/lib_g1.so:system/lib/lib_g1.so \
-    $(PATH_FILES)/lib/libGAL.so:system/lib/libGAL.so \
-    $(PATH_FILES)/lib/libGLSLC.so:system/lib/libGLSLC.so \
     $(PATH_FILES)/lib/libgnssutils.so:system/lib/libgnssutils.so \
     $(PATH_FILES)/lib/libgnuexif.so:system/lib/libgnuexif.so \
     $(PATH_FILES)/lib/libhdr.so:system/lib/libhdr.so \
