@@ -101,7 +101,7 @@ Only the three quirks included above are recognized at this point:
         <MediaCodec name="OMX.k3.video.decoder.vc1" type="video/x-ms-wmv3" />
         <MediaCodec name="OMX.k3.video.decoder.vc1" type="video/wvc1" />
         <MediaCodec name="OMX.ffmpeg.video.decoder" type="video/ffmpeg" />
-	
+
         <MediaCodec name="OMX.google.mp3.decoder" type="audio/mpeg" />
         <MediaCodec name="OMX.google.amrnb.decoder" type="audio/3gpp" />
         <MediaCodec name="OMX.google.amrwb.decoder" type="audio/amr-wb" />
@@ -110,14 +110,14 @@ Only the three quirks included above are recognized at this point:
         <MediaCodec name="OMX.google.g711.mlaw.decoder" type="audio/g711-mlaw" />
         <MediaCodec name="OMX.google.vorbis.decoder" type="audio/vorbis" />
         <MediaCodec name="OMX.k3.ffmpeg.decoder" type="audio/ffmpeg" />
-        <MediaCodec name="OMX.dolby.ac3.decoder" type="audio/ac3" />
-        <MediaCodec name="OMX.dolby.ec3.decoder" type="audio/eac3" />  
 
         <MediaCodec name="OMX.google.mpeg4.decoder" type="video/mp4v-es" />
         <MediaCodec name="OMX.google.h263.decoder" type="video/3gpp" />
         <MediaCodec name="OMX.google.h264.decoder" type="video/avc" />
+        <!-- DTS2014121009180  yangyutian wx226135 20141223 begin   -->
         <MediaCodec name="OMX.google.vp8.decoder" type="video/x-vnd.on2.vp8" />
         <MediaCodec name="OMX.google.vp9.decoder" type="video/x-vnd.on2.vp9" />
+        <!-- DTS2014121009180  yangyutian wx226135 20141223 end   -->
     </Decoders>
 
     <Encoders>
